@@ -12,18 +12,18 @@ body {
     flex-direction: row;
     justify-content: center;
     transition: 500ms;
-    filter: invert(false);
+    padding: 50px;
     
     
 }
 
 .localImg:hover { 
     transition: 1s;
-    filter: invert();
+    transform: scale(120%);
     
 }
 img {
     border-radius: 20px;
-    width: 400px;
+    width: 300px;
     height: auto;
 }
