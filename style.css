@@ -1,0 +1,29 @@
+body {
+    background-color: #282828;
+    color: aliceblue;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.localImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 500ms;
+    filter: invert(false);
+    
+    
+}
+
+.localImg:hover { 
+    transition: 1s;
+    filter: invert();
+    
+}
+img {
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+}
