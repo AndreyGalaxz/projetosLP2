@@ -23,7 +23,7 @@ int main() {
             resultado = c;
         }
 
-        
+
     } else if(b>c) {
         resultado = b;
     } else {
@@ -32,3 +32,4 @@ int main() {
     printf("o maior numero é -- %d --", resultado);
 
 }
+// switch case 
