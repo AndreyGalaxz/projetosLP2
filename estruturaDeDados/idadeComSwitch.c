@@ -3,8 +3,8 @@
     int idade;
     printf("sua idade: ");
     scanf("%d", &idade);
-    switch (idade) {
-    case 21 ... 70:
+    switch (idade) { // da pra usar condicional 
+    case 21 ... 70: // use 0 ou 1 como caso para valores da condicional 
         printf("adulto");
         break;
 
